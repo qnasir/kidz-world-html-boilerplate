@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300&family=Roboto&display=swap');
+/* header */
+* {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    overflow-x: hidden;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    height: 30px;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+#cart {
+    height: 30px;
+}
+
+.spacebtn {
+    display: flex;
+    align-items: center;
+    margin-right: 80px;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.container img {
+    width: 100%;
+}
+
+.container .text1 {
+    position: absolute;
+    color: white;
+    font-size: 70px;
+    font-family: none;
+    left: 80px;
+    top: 60px;
+}
+.container .text2 {
+    position: absolute;
+    color: white;
+    font-family: none;
+    font-size: 70px;
+    left: 80px;
+    top: 140px;
+}
+.container .text3 {
+    position: absolute;
+    color: white;
+    font-size: 70px;
+    font-family: none;
+    left: 80px;
+    top: 220px;
+}
+.container .text4 {
+    position: absolute;
+    color: white;
+    font-size: 23px;
+    left: 80px;
+    top: 310px;
+}
+
+/* Section */
+
+/* row1 */
+.row1 {
+    display: flex;
+    margin-left: -15px;
+    justify-content: space-evenly;
+    margin-top: 3px;
+}
+
+h3 {
+    margin-left: 80px;
+    margin-top: 130px;
+    font-weight: 100;
+    font-family: none;
+}
+
+.flex1 {
+    display: flex;
+    justify-content: space-between;
+    line-height: 30px;
+}
+
+.clm img {
+    height: 200px;
+}
+
+#grey {
+    color: rgb(201, 193, 193);
+    margin-top: 8px;
+    font-weight: 100;
+}
+
+button {
+    height: 27px;
+    width: 60px;
+    display: flex;
+    background-color: #6196FF;
+    border-radius: 5px;
+    border: none;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+button #cart1 {
+    height: 15px;
+}
+
+/* row2 */
+.row2 {
+    display: flex;
+    margin-left: -60px;
+    justify-content: space-evenly;
+    margin-top: 3px;
+}
+
+/* row3 */
+.row3 {
+    display: flex;
+    margin-left: -60px;
+    justify-content: space-evenly;
+    margin-top: 3px;
+}
+
+/* FOOTER SECTION */
+footer {
+    background-color: black;
+    color: white;
+    margin-top: 150px;
+}
+
+#krishti {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.right {
+    margin-top: -90px;
+    margin-right: 80px;
+    text-align: right;
+    line-height: 30px;
+}
+
+.left {
+    margin-left: 70px;
+}
+
+.left p {
+    font-size: 30px;
+    font-family: none;
+}
+
+#krish {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#mail {
+    margin-top: -10px;
+}
