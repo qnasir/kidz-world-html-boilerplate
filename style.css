@@ -8,6 +8,12 @@
 body {
     overflow-x: hidden;
 }
+
+section {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
 header {
     background-image: url("./assets/kw-background.png");
     width: 100%;
@@ -19,15 +25,21 @@ header {
 header .container {
     display: flex;
     flex-direction: column;
-    padding: 4% 5%;
-    height: 100%;
+    padding: 6% 5%;
+    height: 300px;
     max-width: 20%;
     font-size: 4vh;
+    justify-content: space-between;
 }
 
-.flex {
-    display: flex;
-    justify-content: space-between;
+p {
+    cursor: pointer;
+}
+
+
+h1 {
+    font-size: 65px;
+    font-family: none;
 }
 
 #logo {
@@ -38,6 +50,7 @@ header .container {
 
 #cart {
     height: 30px;
+    cursor: pointer;
 }
 
 .spacebtn {
@@ -51,19 +64,18 @@ header .container {
 /* row1 */
 .row1 {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-top: 3px;
 }
 
 h2 {
-    margin-left: 80px;
-    font-weight: 100;
+    font-weight: 530;
     font-size: 22px;
     margin-top: 130px;
     font-family: none;
 }
 
-.flex1, .flex2 {
+.flex {
     display: flex;
     justify-content: space-between;
     line-height: 30px;
@@ -83,6 +95,7 @@ button {
     height: 27px;
     width: 60px;
     display: flex;
+    cursor: pointer;
     background-color: #6196FF;
     border-radius: 5px;
     border: none;
@@ -98,7 +111,7 @@ button #cart1 {
 /* row2 */
 .row2 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 3px;
     max-width: 100%;
 }
@@ -106,8 +119,12 @@ button #cart1 {
 /* row3 */
 .row3 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 3px;
+}
+
+.row {
+    flex-wrap: wrap;
 }
 
 /* FOOTER SECTION */
@@ -132,7 +149,7 @@ footer {
 }
 
 .left {
-    margin-left: 70px;
+    margin-left: 80px;
 }
 
 .left p {
@@ -148,18 +165,27 @@ footer {
     margin-top: -10px;
 }
 
-@media (max-width: 600px) {
+
+@media (max-width: 500px) {
     header {
-        height: 200px;
-        display: flex;
-        flex-direction: column;
+        height: 280px;
     }
-    header .container {
-        font-size: 15px;
+
+    header>.container {
+        height: 220px;
+        width: 100%;
+    }
+    
+    h1 {
+        font-size: 35px;
+    }
+
+    h5 {
+        font-size: 13px;
     }
     .row {
-        flex-direction: column;
         text-align: center;
+        justify-content: center;
     }
     body {
         text-align: center;
@@ -170,19 +196,13 @@ footer {
         font-weight: bolder;
     }
     .clm>img {
-        height: 300px;
-        margin-top: 30px;
+        height: 310px;
     }
-    h1 {
-        margin-left: -3px;
-    }
-   .flex1 {
-        justify-content: space-evenly;
-    }
-   .flex2{
-        justify-content: space-around;
+   .flex {
+        justify-content: space-between;
     }
     footer .right {
         margin-top: 20px;
     }
 }
+
